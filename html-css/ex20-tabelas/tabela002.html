@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        body{
+         font-family: Arial, Helvetica, sans-serif;  
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        thead, tfoot{
+            background-color: rgb(44, 44, 44);
+            color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            background-color: rgb(44, 44, 44);
+            top: 0;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        caption{
+            font-size: 1em;
+            background-color: lightgray;
+            font-weight: bold;
+            border: 1px solid black;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 2px;
+        }
+        .num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando Tabelas Grandes</h1>
+    <table>
+        <caption>
+            População das Unidades Federativas
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td Class = "num">44.420.459</td>
+            </tr>
+            <tr>
+                <td> Minas Gerais</td>
+                <td Class = "num">20.538.718</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td Class = "num">10.880.506</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td Class = "num">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td Class = "num">11.443.208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td Class = "num">9.058.155</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td Class = "num">44.420.459</td>
+            </tr>
+            <tr>
+                <td> Minas Gerais</td>
+                <td Class = "num">20.538.718</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td Class = "num">10.880.506</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td Class = "num">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td Class = "num">11.443.208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td Class = "num">9.058.155</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td Class = "num">44.420.459</td>
+            </tr>
+            <tr>
+                <td> Minas Gerais</td>
+                <td Class = "num">20.538.718</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td Class = "num">10.880.506</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td Class = "num">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td Class = "num">11.443.208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td Class = "num">9.058.155</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td Class = "num">44.420.459</td>
+            </tr>
+            <tr>
+                <td> Minas Gerais</td>
+                <td Class = "num">20.538.718</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td Class = "num">10.880.506</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td Class = "num">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td Class = "num">11.443.208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td Class = "num">9.058.155</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td Class = "num">44.420.459</td>
+            </tr>
+            <tr>
+                <td> Minas Gerais</td>
+                <td Class = "num">20.538.718</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td Class = "num">10.880.506</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td Class = "num">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td Class = "num">11.443.208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td Class = "num">9.058.155</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td Class = "num">44.420.459</td>
+            </tr>
+            <tr>
+                <td> Minas Gerais</td>
+                <td Class = "num">20.538.718</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td Class = "num">10.880.506</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td Class = "num">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td Class = "num">11.443.208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td Class = "num">9.058.155</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td Class = "num">44.420.459</td>
+            </tr>
+            <tr>
+                <td> Minas Gerais</td>
+                <td Class = "num">20.538.718</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td Class = "num">10.880.506</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td Class = "num">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td Class = "num">11.443.208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td Class = "num">9.058.155</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td Class = "num">44.420.459</td>
+            </tr>
+            <tr>
+                <td> Minas Gerais</td>
+                <td Class = "num">20.538.718</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td Class = "num">10.880.506</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td Class = "num">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td Class = "num">11.443.208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td Class = "num">9.058.155</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td Class = "num">44.420.459</td>
+            </tr>
+            <tr>
+                <td> Minas Gerais</td>
+                <td Class = "num">20.538.718</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td Class = "num">10.880.506</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td Class = "num">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td Class = "num">11.443.208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td Class = "num">9.058.155</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="colgroup">Total de habitantes</th>
+            <td Class = "num"><strong>203 062 512</strong></td>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outros Controles</title>
+    <style>
+        p{
+            background-color: lightpink;
+        }
+        input{
+            background-color: rgb(131, 197, 220);
+            padding: 2px;
+            margin: 4px;
+        }
+        label{
+            padding: 2px;
+            background-color: rgb(171, 225, 171);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <p>
+                <input type="radio" name="sex" id="imasc" checked>
+                <label for="imasc">Masculino</label>
+                <input type="radio" name="sex" id="ifem">
+                <label for="ifem">Feminino</label>
+            </p>
+
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <p>
+                <input type="checkbox" name="fut" id="ifut" checked> 
+                <label for="ifut">Futebol</label>
+            </p>
+            <p>
+                <input type="checkbox" name="bas" id="ibas">
+                <label for="ibas">Basketball</label>
+            </p>
+            <p>
+                <input type="checkbox" name="vol" id="ivol">
+                <label for="ivol">Volei</label>
+            </p>
+            <p>
+                <input type="checkbox" name="run" id="irun">
+                <label for="irun"> Corrida</label>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
